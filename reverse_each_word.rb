@@ -12,7 +12,6 @@ def reverse_each_word(strings)
   def reverse_each_word(strings)
     strings.split.collect do |string|
       string
-    end
-    [reverse_each_word(strings)].join(" ")
+    end.join(" ")
   end 
   
